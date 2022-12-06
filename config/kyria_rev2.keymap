@@ -17,7 +17,6 @@
 / {
 	keymap {
 		compatible = "zmk,keymap";
-
 		alpha_layer {
 			bindings = <
 	&none   &kp Q &kp W &kp F &kp P &kp B                                                &kp J &kp L  &kp U     &kp Y   &kp '      &none
@@ -26,7 +25,5 @@
 	                 &none &none &lt FN ESC &lt NUM SPACE &lt SPEC TAB        &lt CODE RET  &lt NAV BSPC  &ltMEDIA DEL &none &none
 			>;
 		};
-
-
 	};
 };
