@@ -25,5 +25,14 @@
 	                 &none &none &lt FN ESC &lt NUM SPACE &lt SPEC TAB        &lt CODE RET  &lt NAV BSPC  &lt MEDIA DEL &none &none
 			>;
 		};
+		code_layer {
+			bindings = <
+	&none   &kp PG_UP &kp HOME &kp UP &kp END &none                                                &none &none  &none     &none   &none      &none
+	&none   &kp PAGE_DOWN &kp LEFT &kp DOWN &kp RIGHT &none                                                &none &none  &none     &none   &none      &none
+	&none   &none &none & INS &none &none &none &none                        &none &none &none &none  &none &none &none   &none
+	                 &none &none &none &none &none        &none  &lt NAV BSPC  &none &none &none
+			>;
+		};
+
 	};
 };
