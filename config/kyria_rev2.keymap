@@ -18,20 +18,15 @@
 	keymap {
 		compatible = "zmk,keymap";
 
-		default_layer {
-// ---------------------------------------------------------------------------------------------------------------------------------
-// |  N/A  |  Q  |  W  |  E   |  R   |  T   |                                          |  Y   |  U    |  I    |  O   |   P   |  N/A |
-// |  N/A  |  A  |  S  |  D   |  F   |  G   |                                          |  H   |  J    |  K    |  L   |   ;   |  N/A |
-// |  N/A  |  Z  |  X  |  C   |  V   |  B   | L SHIFT | L SHIFT |  | L SHIFT | L SHIFT |  N   |  M    |  ,    |  .   |   /   |  N/A |
-//                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
+		alpha_layer {
 			bindings = <
 	&none   &kp Q &kp W &kp F &kp P &kp B                                                &kp J &kp L  &kp U     &kp Y   &kp '      &none
 	&none   &kp A &kp R &kp S &kp T &kp G                                                &kp M &kp N  &kp E     &kp I   &kp O      &none
 	&none   &kp Z &kp X &kp C &kp D &kp V &none &none                        &none &none &kp K &kp H  &kp COMMA &kp DOT &kp FSLH   &none
-	                 &none &none &kp ESC &kp SPACE &kp TAB        &kp RET  &kp BSPC  &kp DEL &none &none
+	                 &none &none &lt FN ESC &lt NUM SPACE &lt SPEC TAB        &lt CODE RET  &lt NAV BSPC  &ltMEDIA DEL &none &none
 			>;
-
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
+
+
 	};
 };
