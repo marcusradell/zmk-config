@@ -7,11 +7,9 @@
 
 #define NAV   1
 #define CODE  2
-#define MEDIA 3
 
-#define NUM   4
-#define SPEC  5
-#define FN    6
+#define NUM   3
+#define FN    4
 
 
 / {
@@ -35,12 +33,21 @@
 	                 &none &none &lt FN ESC &lt NUM SPACE &lt SPEC TAB        &lt CODE RET  &lt NAV BSPC  &lt MEDIA DEL &none &none
 			>;
 		};
-		code_layer {
+		nav_layer {
 			bindings = <
 	&none   &kp PG_UP &kp HOME &kp UP &kp END &none                                                &none &none  &none     &none   &none      &none
 	&none   &kp PAGE_DOWN &kp LEFT &kp DOWN &kp RIGHT &none                                                &none &none  &none     &none   &none      &none
 	&none   &none &none &kp INS &none &none &none &none                        &none &none &none &none  &none &none &none   &none
 	                 &none &none &none &none &none        &none  &lt NAV BSPC  &none &none &none
+			>;
+		};
+
+		code_layer {
+			bindings = <
+	&none   &none &none &kp LBKT &kp RBKT &none                                                &none &none  &none     &none   &none      &none
+	&none   &none &kp LEFT &kp LPAR &kp RPAR &none                                                &none &none  &none     &none   &none      &none
+	&none   &none &none &kp LBRC &kp RBRC &none &none &none                        &none &none &none &none  &none &none &none   &none
+	                 &none &none &none &none &none        &lt CODE RET  &none  &none &none &none
 			>;
 		};
 
