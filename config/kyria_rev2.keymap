@@ -30,14 +30,14 @@
 	&none   &kp Q &kp W &kp F &kp P &kp B                                                &kp J &kp L  &kp U     &kp Y   &kp SINGLE_QUOTE      &none
 	&none   &ht LCTRL A &ht LALT R &ht LCMD S &ht LSFT T &kp G                                                &kp M &ht RSFT N  &ht RCMD E     &ht RALT I   &ht RCTRL O      &none
 	&none   &kp Z &kp X &kp C &kp D &kp V &none &none                        &none &none &kp K &kp H  &kp COMMA &kp DOT &kp FSLH   &none
-	                 &none &none &lt FN ESC &lt NUM SPACE &lt SPEC TAB        &lt CODE RET  &lt NAV BSPC  &lt MEDIA DEL &none &none
+	                 &none &none &none &lt NUM SPACE &lt FN TAB        &lt CODE RET  &lt NAV BSPC  &none &none &none
 			>;
 		};
 		nav_layer {
 			bindings = <
 	&none   &kp PG_UP &kp HOME &kp UP &kp END &none                                                &none &none  &none     &none   &none      &none
 	&none   &kp PAGE_DOWN &kp LEFT &kp DOWN &kp RIGHT &none                                                &none &none  &none     &none   &none      &none
-	&none   &none &none &kp INS &none &none &none &none                        &none &none &none &none  &none &none &none   &none
+	&none   &none &kp DEL &kp INS &kp ESC &none &none &none                        &none &none &none &none  &none &none &none   &none
 	                 &none &none &none &none &none        &none  &lt NAV BSPC  &none &none &none
 			>;
 		};
