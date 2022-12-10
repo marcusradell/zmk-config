@@ -45,7 +45,7 @@
 		code_layer {
 			bindings = <
 	&none   &none &none &kp LBKT &kp RBKT &none                                                &none &none  &none     &none   &none      &none
-	&none   &none &kp LEFT &kp LPAR &kp RPAR &CAPS                                                &none &none  &none     &none   &none      &none
+	&none   &none &kp LEFT &kp LPAR &kp RPAR &kp CAPS                                                &none &none  &none     &none   &none      &none
 	&none   &none &none &kp LBRC &kp RBRC &none &none &none                        &none &none &none &none  &none &none &none   &none
 	                 &none &none &none &none &none        &lt CODE RET  &none  &none &none &none
 			>;
