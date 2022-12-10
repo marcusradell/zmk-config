@@ -45,7 +45,7 @@
 		code_layer {
 			bindings = <
 	&none   &none &none &kp LBKT &kp RBKT &none                                                &none &none  &none     &none   &none      &none
-	&none   &none &kp LEFT &kp LPAR &kp RPAR &none                                                &none &none  &none     &none   &none      &none
+	&none   &none &kp LEFT &kp LPAR &kp RPAR &CAPS                                                &none &none  &none     &none   &none      &none
 	&none   &none &none &kp LBRC &kp RBRC &none &none &none                        &none &none &none &none  &none &none &none   &none
 	                 &none &none &none &none &none        &lt CODE RET  &none  &none &none &none
 			>;
@@ -53,10 +53,10 @@
 
 		num_layer {
 			bindings = <
-			&none   &none &none &none &none &none                                                &none &none  &none     &none   &none      &none
-			&none   &none &none &none &none &none                                                &none &none  &none     &none   &none      &none
-			&none   &none &none &none &none &none &none &none                        &none &none &none &none  &none &none &none   &none
-	                 &none &none &none &lt NUM SPACE &none        &none  &none  &none &none &none
+			&none   &none &none &none &none &none                                    &none &N7 &N8 &N9 &GRAVE &none
+			&none   &none &none &none &none &none                                    &none &N4 &N5 &N6 &EQUAL &none
+			&none   &none &none &none &none &none &none &none            &none &none &none &N1 &N2 &N3 &BSLH &none
+	                 &none &none &none &lt NUM SPACE &none               &MINUS &SEMI &N0 &none &none
 			>;
 		};
 
