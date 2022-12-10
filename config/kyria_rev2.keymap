@@ -37,7 +37,7 @@
 		nav_layer {
 			bindings = <
 	&none   &kp PG_UP &kp HOME &kp UP &kp END &none                                                &none &none  &none     &none   &none      &none
-	&none   &kp PAGE_DOWN &kp LEFT &kp DOWN &kp RIGHT &none                                                 &none &none  &none     &none   &none      &none
+	&none   &kp PAGE_DOWN &kp LEFT &kp DOWN &kp RIGHT &none                                                 &none &ht RSFT N  &ht RCMD E     &ht RALT I   &ht RCTRL O      &none
 	&none   &none &kp DEL &kp INS &kp ESC &none &none &none                        &none &none &none &none  &none &none &none   &none
 	                 &none &none &none &none &none        &none  &lt NAV BSPC  &none &none &none
 			>;
@@ -46,7 +46,7 @@
 		code_layer {
 			bindings = <
 	&none   &none &none &kp LBKT &kp RBKT &none                                                &none &none  &none     &none   &none      &none
-	&none   &none &kp LEFT &kp LPAR &kp RPAR &kp CAPS                                                &none &none  &none     &none   &none      &none
+	&none   &none &kp LEFT &kp LPAR &kp RPAR &kp CAPS                                                &none &ht RSFT N  &ht RCMD E     &ht RALT I   &ht RCTRL O      &none
 	&none   &none &none &kp LBRC &kp RBRC &none &none &none                        &none &none &none &none  &none &none &none   &none
 	                 &none &none &none &none &none        &lt CODE RET  &none  &none &none &none
 			>;
@@ -55,7 +55,7 @@
 		num_layer {
 			bindings = <
 			&none   &none &none &none &none &none                                    &none &kp N7 &kp N8 &kp N9 &kp GRAVE &none
-			&none   &none &none &none &none &none                                    &none &kp N4 &kp N5 &kp N6 &kp EQUAL &none
+			&none   &ht LCTRL A &ht LALT R &ht LCMD S &ht LSFT T &none                                    &none &kp N4 &kp N5 &kp N6 &kp EQUAL &none
 			&none   &none &none &none &none &none &none &none            &none &none &none &kp N1 &kp N2 &kp N3 &kp BSLH &none
 	                 &none &none &none &lt NUM SPACE &none               &kp MINUS &kp SEMI &kp N0 &none &none
 			>;
@@ -64,7 +64,7 @@
 		fn_layer {
 			bindings = <
 			&none   &none &none &none &none &none                                    &kp PSCRN &kp F7 &kp F8 &kp F9 &kp F12 &none
-			&none   &none &none &none &none &none                                    &kp SLCK &kp F4 &kp F5 &kp F6 &kp F11 &none
+			&none   &ht LCTRL A &ht LALT R &ht LCMD S &ht LSFT T &none                                    &kp SLCK &kp F4 &kp F5 &kp F6 &kp F11 &none
 			&none   &none &none &none &none &none &none &none            &none &none &kp PAUSE_BREAK &kp F1 &kp F2 &kp F3 &kp F10 &none
 	                 &none &none &none &none &lt FN TAB               &bt BT_CLR &bt BT_NXT &none &none &none
 			>;
