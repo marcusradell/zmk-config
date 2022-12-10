@@ -36,9 +36,9 @@
 		};
 		nav_layer {
 			bindings = <
-	&none   &kp PG_UP &kp HOME &kp UP &kp END &bt BT_NXT                                                &none &none  &none     &none   &none      &none
-	&none   &kp PAGE_DOWN &kp LEFT &kp DOWN &kp RIGHT &bt BT_PRV                                                 &none &none  &none     &none   &none      &none
-	&none   &none &kp DEL &kp INS &kp ESC &bt BT_CLR &none &none                        &none &none &none &none  &none &none &none   &none
+	&none   &kp PG_UP &kp HOME &kp UP &kp END &none                                                &none &none  &none     &none   &none      &none
+	&none   &kp PAGE_DOWN &kp LEFT &kp DOWN &kp RIGHT &none                                                 &none &none  &none     &none   &none      &none
+	&none   &none &kp DEL &kp INS &kp ESC &none &none &none                        &none &none &none &none  &none &none &none   &none
 	                 &none &none &none &none &none        &none  &lt NAV BSPC  &none &none &none
 			>;
 		};
@@ -63,10 +63,10 @@
 
 		fn_layer {
 			bindings = <
-			&none   &none &none &none &none &none                                    &kp PSCRN &kp FN7 &kp FN8 &kp FN9 &kp FN12 &none
-			&none   &none &none &none &none &none                                    &kp SLCK &kp FN4 &kp FN5 &kp FN6 &kp FN11 &none
-			&none   &none &none &none &none &none &none &none            &none &none &kp PAUSE_BREAK &kp FN1 &kp FN2 &kp FN3 &kp FN10 &none
-	                 &none &none &none &none &lt FN TAB               &none &none &none &none &none
+			&none   &none &none &none &none &none                                    &kp PSCRN &kp F7 &kp F8 &kp F9 &kp F12 &none
+			&none   &none &none &none &none &none                                    &kp SLCK &kp F4 &kp F5 &kp F6 &kp F11 &none
+			&none   &none &none &none &none &none &none &none            &none &none &kp PAUSE_BREAK &kp F1 &kp F2 &kp F3 &kp F10 &none
+	                 &none &none &none &none &lt FN TAB               &bt BT_CLR &bt BT_NXT &none &none &none
 			>;
 		};
 	};
