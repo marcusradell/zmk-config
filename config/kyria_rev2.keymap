@@ -62,10 +62,10 @@
 
 		fn_layer {
 			bindings = <
-			&none   &none &none &none &none &none                                                &none &none  &none     &none   &none      &none
-			&none   &none &none &none &none &none                                                &none &none  &none     &none   &none      &none
-			&none   &none &none &none &none &none &none &none                        &none &none &none &none  &none &none &none   &none
-	                 &none &none &none &none &lt FN TAB        &none  &none  &none &none &none
+			&none   &none &none &none &none &none                                    &kp PSCRN &kp FN7 &kp FN8 &kp FN9 &kp FN12 &none
+			&none   &none &none &none &none &none                                    &kp SLCK &kp FN4 &kp FN5 &kp FN6 &kp FN11 &none
+			&none   &none &none &none &none &none &none &none            &none &none &kp PAUSE_BREAK &kp FN1 &kp FN2 &kp FN3 &kp FN10 &none
+	                 &none &none &none &none &lt FN TAB               &none &none &none &none &none
 			>;
 		};
 	};
